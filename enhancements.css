@@ -55,3 +55,7 @@
   font-size: 7px;
 }
 .schedule b { display: block; color: #304a38; font-size: 11px; margin-bottom: 2px; }
+.progressbox { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0; }
+.progressbox button { border: 1px solid #d9dfd6; border-radius: 12px; background: #fff; color: #58645b; padding: 10px 7px; font-size: 10px; }
+.progressbox button.active { background: #edf2e9; border-color: #91a591; color: #304a38; }
+.progressbox button.done { background: #5e7a62; border-color: #5e7a62; color: #fff; }
